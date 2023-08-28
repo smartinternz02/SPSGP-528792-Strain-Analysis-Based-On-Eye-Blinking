@@ -1,0 +1,91 @@
+body {
+    background-color: #333333;
+    color: #FFFFFF;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.tm-site-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.tm-site-header {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-bottom: 0;
+}
+
+.tm-video-container {
+    position: relative;
+    max-width: 1280px;
+    max-height: 640px;
+    overflow-y: hidden;
+}
+
+.tm-welcome-text {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    font-size: 2.2rem;
+}
+
+.tm-text-gray {
+    color: #CCCCCC;
+}
+
+.tm-text-white {
+    color: #FFFFFF;
+}
+
+a.tm-text-white:hover,
+a.tm-text-white:focus {
+    color: #FFFFFF;
+}
+
+hr {
+    border-color: #666666;
+    max-width: 70%;
+}
+
+.tm-section-mb {
+    margin-bottom: 85px;
+}
+
+.tm-section-mt {
+    margin-top: 85px;
+}
+
+p {
+    line-height: 1.9;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1310px;
+    }
+    .tm-container-2 {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .tm-video-container {
+        max-width: 932px;
+        max-height: 466px;
+    }
+}
